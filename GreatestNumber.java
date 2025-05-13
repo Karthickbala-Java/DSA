@@ -5,7 +5,8 @@ public class GreatestNumber {
     public static void main(String[] args) {
         int[] arr = { 10, 20, 30 };
 
-        bigNoArray(arr);
+        // bigNoArray(arr);
+        inBuiltMethod(arr);
     }
 
     static void bigNoArray(int[] arr) {
@@ -18,4 +19,10 @@ public class GreatestNumber {
         System.out.println(max);
 
     }
+
+    static void inBuiltMethod(int[] arr) {
+        int max = Arrays.stream(arr).max().getAsInt();
+        System.out.println(max);
+    }
+
 }

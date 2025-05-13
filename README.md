@@ -16,7 +16,15 @@ public class BruteForce {
 }
 ```
 
-## Heading 2
+# Inbuilt Method of Java
+
+```java
+static void inBuiltMethod(int[] arr) {
+        int max = Arrays.stream(arr).max().getAsInt();
+        System.out.println(max);
+    }
+
+```
 
 ### Heading 3
 
