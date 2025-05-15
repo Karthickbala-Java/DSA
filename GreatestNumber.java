@@ -6,7 +6,8 @@ public class GreatestNumber {
         int[] arr = { 10, 20, 30 };
 
         // bigNoArray(arr);
-        inBuiltMethod(arr);
+        // inBuiltMethod(arr);
+        sortingWay(arr);
     }
 
     static void bigNoArray(int[] arr) {
@@ -25,4 +26,7 @@ public class GreatestNumber {
         System.out.println(max);
     }
 
+    static void sortingWay(int[] arr) {
+
+    }
 }
