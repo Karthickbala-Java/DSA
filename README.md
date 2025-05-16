@@ -1,4 +1,4 @@
-# Brute force approach
+# first Problem Brute force approach
 
 ```java
 // Brute force approach to find the maximum element in an array
